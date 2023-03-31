@@ -1,10 +1,15 @@
 import React from 'react';
 import "./BlogContainer.css"
-import Header from '../Header/Header';
+import Blog from '../Blog/Blog';
+import Bookmars from '../Bookmars/Bookmars';
 const BlogContainer = () => {
+    
     return (
         <div className='blog-container'>
-            <Header></Header>
+            <Blog></Blog>
+            <Bookmars ></Bookmars>
+
+
         </div>
     );
 };

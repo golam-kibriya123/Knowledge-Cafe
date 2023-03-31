@@ -12,7 +12,6 @@ const Header = () => {
                 <a href="/home">Category </a>
                 <a href="/home">Book Mark</a>
                 <img src={logo} alt="" />
-
             </div>
         </div>
     );

@@ -1,0 +1,40 @@
+.spent-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    color: #6047EC;
+    padding: 10px 20px;
+    margin: 24px 0;
+    text-align: center;
+
+}
+
+.book-marks {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding:8px 30px;
+}
+
+.book-mark-tittle {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.book-mark {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+
+}
+
+.book-mark h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
