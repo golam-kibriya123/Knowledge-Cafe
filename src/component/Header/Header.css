@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 20px auto 50px auto;
-  
+
 
 }
 
@@ -61,5 +61,15 @@ img {
     .nav-items {
         flex-direction: column;
         margin-top: 20px;
+    }
+
+    .nav-brand h1 {
+        font-size: 30px;
+    }
+
+    .nav-items {
+        display: flex;
+        align-items: start;
+
     }
 }
