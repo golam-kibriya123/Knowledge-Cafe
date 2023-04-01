@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import "./BlogContainer.css"
 import Bookmars from '../Bookmars/Bookmars';
 import SingleBlog from "../SingleBlog/SingleBlog";
@@ -16,10 +19,16 @@ const BlogContainer = () => {
 
     const [title, setTitle] = useState([]);
     const bookMarkBtn = (pTitle) => {
-        const newContainer = [...titleContainer, pTitle];
+        let newContainer = [];
+        if (title.includes(pTitle) !== true) {
+            newContainer = [...titleContainer, pTitle];
+
+        }
+        else {
+            toast('sir please do not force ')
+        }
         const setNewTitle = [...title, ...newContainer]
 
-        titleContainer.push(title);
 
         setTitle(setNewTitle);
 
@@ -33,7 +42,8 @@ const BlogContainer = () => {
                 bookMarkBtn={bookMarkBtn}
                 key={user.id}
                 user={user}
-            ></SingleBlog>)}</div>
+            ></SingleBlog>)}
+            </div>
             <Bookmars
                 readTime={time}
                 title={title}
