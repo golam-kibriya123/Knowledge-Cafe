@@ -1,3 +1,7 @@
+.bookMarks-container {
+   
+}
+
 .spent-time {
     background: rgba(96, 71, 236, 0.1);
     border: 1px solid #6047EC;
@@ -12,7 +16,7 @@
 .book-marks {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
-    padding:8px 30px;
+    padding: 8px 30px;
 }
 
 .book-mark-tittle {
