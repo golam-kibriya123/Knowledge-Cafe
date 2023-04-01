@@ -12,8 +12,17 @@ const BlogContainer = () => {
     };
 
 
-   
+    let titleContainer = [];
+    const [title, setTitle] = useState([]);
+    const bookMarkBtn = (pTitle) => {
+        const newContainer = [...titleContainer, pTitle];
+        const setNewTitle = [...title, ...newContainer]
 
+        titleContainer.push(title);
+
+        setTitle(setNewTitle);
+
+    };
 
     const users = data;
     return (
@@ -26,7 +35,7 @@ const BlogContainer = () => {
             ></SingleBlog>)}</div>
             <Bookmars
                 readTime={time}
-
+                title={title}
             ></Bookmars>
 
 

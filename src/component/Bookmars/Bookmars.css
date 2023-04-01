@@ -1,5 +1,7 @@
 .bookMarks-container {
-   
+    height: 100vh !important;
+    position: sticky;
+    top: 0;
 }
 
 .spent-time {
@@ -17,6 +19,12 @@
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     padding: 8px 30px;
+}
+
+.bookMarkParent {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 0 10px;
 }
 
 .book-mark-tittle {
