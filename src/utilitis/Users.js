@@ -10,7 +10,7 @@ const Users = [
 
     {
         name: "Asif",
-        title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quibusdam",
+        title: " amet consectetur adipisicing elit. Enim Lorem ipsum dolor sit, quibusdam",
         u_img: "../img/u2.jpg",
         b_img: "../img/w2.jpg",
         time: "11",
@@ -19,7 +19,7 @@ const Users = [
 
     {
         name: "Asif",
-        title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quibusdam",
+        title: " adipisicing elit Lorem ipsum dolor sit amet consectetur. Enim, quibusdam",
         u_img: "../img/u3.jpg",
         b_img: "../img/w3.jpg",
         time: "20",
@@ -27,7 +27,7 @@ const Users = [
     },
 
     {
-        name: "Asif", title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quibusdam",
+        name: "Asif", title: "Enim, quibusdam Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
         u_img: "../img/u4.jpg",
         b_img: "../img/w4.jpg",
         time: "18",
