@@ -106,5 +106,16 @@
         height: auto;
     }
 
+    .blog-img {
+        height: 250px;
+    }
 
+    .blog-info p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .title {
+        font-size: 20px;
+    }
 }

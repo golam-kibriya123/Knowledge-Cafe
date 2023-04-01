@@ -12,7 +12,8 @@ table {
     border-collapse: collapse;
     font-size: 0.9em;
     font-family: sans-serif;
-    min-width: 400px;
+    max-width: 400px;
+    width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin: auto;
 }
@@ -27,9 +28,11 @@ thead tr {
     text-align: left;
 
 }
-.styled-table td{
+
+.styled-table td {
     line-height: 2;
 }
+
 .styled-table th,
 .styled-table td {
     border: 1px solid seagreen;
@@ -46,4 +49,10 @@ thead tr {
 
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
+}
+
+@media (max-width: 700px) {
+    .container h1 {
+        font-size: 20px;
+    }
 }
